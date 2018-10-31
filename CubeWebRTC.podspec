@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CubeWebRTC'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Web Real-Time Communication'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 A framework of Web Real-Time Communication 
                        DESC
 
-  s.homepage         = 'https://github.com/shixin-iOS/WebRTC'
+  s.homepage         = 'https://github.com/shixin-iOS/CubeWebRTC'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'AshineReal' => '758988371@qq.com' }
-  s.source           = { :git => 'https://github.com/shixin-iOS/WebRTC.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/shixin-iOS/CubeWebRTC.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
